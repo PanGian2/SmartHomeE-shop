@@ -1,0 +1,12 @@
+.product_link {
+    text-decoration: none;
+    color: var(--bs-list-group-color);
+}
+
+.product_link:hover {
+    text-decoration: underline;
+}
+
+.product_img:hover {
+    opacity: 0.8;
+}

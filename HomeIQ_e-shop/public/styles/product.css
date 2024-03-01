@@ -1,0 +1,80 @@
+body {
+    background-color: #e0fbfc;
+}
+
+#availability {
+    padding: 0.75% 2%;
+    float: right;
+    border: 1px solid #003049;
+    background-color: #003049;
+    color: white;
+    border-radius: 15px;
+    cursor: text;
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 75%;
+
+
+    }
+
+    .input-group {
+        width: 50%;
+    }
+
+    .input-group {
+        width: 40% !important;
+
+    }
+
+    #add-cart {
+        width: 40%;
+    }
+
+    .carousel-item>img {
+        object-fit: contain;
+        height: 35em;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:576px) {
+
+    #mobilePhotoSlider {
+        height: 30em;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 50%;
+
+        margin-top: 27em;
+
+    }
+
+    .input-group {
+        width: 80% !important;
+
+    }
+
+    #add-cart {
+        width: 80%;
+    }
+
+    .carousel-item>img {
+        object-fit: contain;
+        height: 30em;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .carousel-item>img {
+        object-fit: cover;
+        height: 30em;
+        width: 100%;
+    }
+}

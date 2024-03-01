@@ -1,0 +1,19 @@
+body {
+    background-color: #e0fbfc;
+}
+
+.container {
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    color: black;
+}
+
+#v-pills-tab>.nav-link:hover {
+    background-color: var(--bs-primary);
+    color: white;
+}
+
+.form-group {
+    padding: 4% 0;
+}

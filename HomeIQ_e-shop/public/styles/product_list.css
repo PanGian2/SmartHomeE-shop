@@ -1,0 +1,33 @@
+body {
+    background-color: #e0fbfc;
+}
+
+#availability {
+    padding: 0.75% 2%;
+    float: right;
+    border: 1px solid #003049;
+    background-color: #003049;
+    color: white;
+    border-radius: 15px;
+    cursor: text;
+    text-align: center;
+}
+
+.product-card {
+    height: 30em;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.product-stats {
+    margin-bottom: 20px;
+    display: inline-block
+}
+
+.sort-btn {
+    margin-bottom: 10px;
+}
